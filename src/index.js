@@ -7,7 +7,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <BrowserRouter>
    <Routes>
-    <Route path='/Login' Component={Login}/>
+    <Route path='/' Component={Login}/>
    </Routes>
    </BrowserRouter>
 );
